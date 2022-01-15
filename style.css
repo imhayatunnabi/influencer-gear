@@ -195,7 +195,22 @@ i {
 }
 /* footer section  */
 footer {
+  text-align: center;
   margin-top: 50px;
   background-color: #0a0826;
   padding: 40px 160px 40px 160px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+footer h4,
+p,
+i {
+  color: #787885;
+}
+footer .sIcons a i {
+  padding-top: 10px;
+  font-size: 32px;
 }
