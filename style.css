@@ -112,6 +112,13 @@ button i:hover {
   justify-items: center;
 }
 /* product section  */
+#popularTag {
+  margin-top: 30px;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
 .pc {
   margin-top: 100px;
   padding: 0 165px;
