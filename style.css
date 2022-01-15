@@ -221,3 +221,12 @@ footer .sIcons a i {
   padding-top: 10px;
   font-size: 32px;
 }
+/* responsive section  */
+/* -----------------------
+for mobile devices 
+-----------------------*/
+@media only screen and (max-width: 700px) {
+  .menu a {
+    display: none;
+  }
+}
