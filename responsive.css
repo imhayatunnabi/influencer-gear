@@ -1,26 +1,38 @@
 /* responsive section  */
+
 /* -----------------------
 for mobile devices 
 -----------------------*/
-@media only screen and (max-width: 767px) {
-  .logo {
-    text-align: center;
+
+@media only screen and (max-width: 688px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
-  .menu a {
+  nav {
     display: block;
+  }
+  .hero {
+    display: block;
+  }
+  .product {
+    display: block;
+  }
+  .featured {
+    display: block;
+    width: 100%;
+  }
+  #people {
+    width: 100%;
     text-align: center;
+    margin-left: 70px;
   }
-  .collab {
-    display: none;
+  .reviewCard {
+    display: block;
+    width: 100%;
   }
-  #popularTag {
-    margin-top: 400px;
-    text-align: center;
-    font-size: 24px;
-  }
-  .pc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  footer {
+    width: 100%;
   }
 }
