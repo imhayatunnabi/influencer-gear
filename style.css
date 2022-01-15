@@ -80,21 +80,21 @@ button i {
   color: #e02c6d;
   padding-left: 6px;
 }
-button:hover,
-button i:hover {
+button:hover {
   background-color: #e02c6d;
   color: #fff;
 }
+
 .heroHalf img {
   width: 415px;
   margin-left: 100px;
-  background: url(./images/Circle\ design.svg);
+  background: url(./images/circle_design.svg);
   background-position: center;
   background-size: cover;
-  transition: 3s;
+  transition: 0.3s;
 }
 .heroHalf img:hover {
-  transform: rotate(25deg);
+  transform: scale(1.1);
 }
 .collab {
   margin-top: 50px;
@@ -172,11 +172,14 @@ button i:hover {
   margin: 50px 165px;
   float: right;
 }
-.seeMore p {
+.seeMore a {
+  text-decoration: none;
   font-weight: 600;
 }
-.seeMore p,
-i {
+.seeMore a {
+  color: #e02c6d;
+}
+.seeMore i {
   color: #e02c6d;
 }
 /* featured section  */
@@ -221,12 +224,33 @@ footer .sIcons a i {
   padding-top: 10px;
   font-size: 32px;
 }
+/* review card  */
+.reviewCard {
+  margin: 50px 165px 0 165px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.review {
+  height: 120px;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.sideR img {
+  width: 100px;
+}
+.sideR h4 {
+  font-family: "Inter", sans-serif;
+}
+#people {
+  text-align: center;
+  margin-top: 50px;
+}
 /* responsive section  */
 /* -----------------------
 for mobile devices 
 -----------------------*/
-@media only screen and (max-width: 700px) {
-  .menu a {
-    display: none;
-  }
-}
