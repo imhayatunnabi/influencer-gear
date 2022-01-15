@@ -66,23 +66,20 @@ nav {
   font-size: 16px;
   padding-top: 16px;
 }
-button {
-  margin-top: 16px;
-  padding: 12px 12px;
-  background-color: #fff;
-  color: #e02c6d;
-  font-weight: 700;
-  border: 1px solid #e02c6d;
-  border-radius: 10px;
-  cursor: pointer;
-}
-button i {
-  color: #e02c6d;
-  padding-left: 6px;
-}
-button:hover {
+.heroHalf a {
   background-color: #e02c6d;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+}
+.heroHalf a > i {
   color: #fff;
+}
+.heroHalf a:hover {
+  background-color: #fb8200;
 }
 
 .heroHalf img {
@@ -129,9 +126,6 @@ button:hover {
 }
 /* single product card  */
 .pcard {
-  /* width: 330px;
-  height: 475px; */
-  /* margin: 0 5px; */
   padding: 20px 20px 20px 40px;
   background-color: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -200,8 +194,20 @@ button:hover {
   font-weight: 700;
   font-size: 16px;
 }
-.fbutton {
-  border-radius: 0;
+.fhalf2 a {
+  background-color: #e02c6d;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+}
+.fhalf2 a > i {
+  color: #fff;
+}
+.fhalf2 a:hover {
+  background-color: #fb8200;
 }
 /* footer section  */
 footer {
